@@ -52,3 +52,61 @@
 }
 
 /* esercizio 6 */
+.ex-6-img:hover {
+  filter: grayscale(1);
+}
+
+/* esercizio 7*/
+.ex-7-img:hover {
+  transition: 2s;
+  filter: grayscale(1) sepia(1);
+}
+
+/* esercizio 8 */
+.ex-8-img:hover {
+  transition:all 1s;
+  filter:contrast(10) sepia(1);
+  border-radius: 20%;
+}
+
+/* esercizio 9 */
+.ex-9-img:hover {
+    filter: grayscale(0.6) contrast(10);
+    border-radius: 5%;
+    transform: scale(1.5);
+}
+
+.ex-9-img {
+    transition: all 1s ease;
+}
+
+/* esercizio 10 */
+.ex-10-icon.fas.fa-circle-notch {
+  animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+  from {
+  transform: rotate(360deg);
+  }
+to {
+  transform: rotate(0deg);
+  }
+}
+
+/* esercizio 11 */
+.ex-11-icon.fas.fa-circle-notch:hover {
+  animation: hover-loading 2s linear;
+}
+
+@keyframes hover-loading {
+  0%   {
+  transform: rotate(0deg);
+  }
+  70%  {
+  transform: rotate(270deg);
+  }
+  100% {
+  transform: rotate(0deg);
+  }
+}
