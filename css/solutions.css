@@ -110,3 +110,39 @@ to {
   transform: rotate(0deg);
   }
 }
+
+/*esercizio 12  */
+.ex-12-button:hover .ex-12-top-white {
+  animation: white-move-top 2s linear;
+}
+
+@keyframes white-move-top {
+  0% {left: 10%;
+  }
+  50% {left: calc(100% - 60px);
+  }
+  100% {left: 10%;
+  }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: white-move-bottom 2s linear;
+}
+
+@keyframes white-move-bottom {
+  0% {right: 10%;
+  }
+  50% {right: calc(100% - 60px);
+  }
+  100% {right: 10%;
+  }
+}
+
+/* esercizio 13 */
+.ex-13-button:hover .ex-13-top-white {
+  animation: white-13-top 2s linear;
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+  animation: white-13-bottom 2s linear;
+}
